@@ -1,6 +1,6 @@
 { config, lib, pkgs, ... }:
 
-with import <stockholm/lib>;
+with import ../../lib { nixpkgs-lib = lib; };
 let
   optionalAttr = name: value:
     if name != null then

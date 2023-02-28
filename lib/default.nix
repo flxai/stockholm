@@ -1,5 +1,5 @@
+{ nixpkgs-lib ? import <nixpkgs/lib> }:
 let
-  nixpkgs-lib = import <nixpkgs/lib>;
   lib = with lib; nixpkgs-lib // builtins // {
 
     evalModulesConfig = modules: let

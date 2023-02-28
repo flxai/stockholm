@@ -1,0 +1,92 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1676283394,
+        "narHash": "sha256-XX2f9c3iySLCw54rJ/CZs+ZK6IQy7GXNY4nSOyu2QG4=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "3db36a8b464d0c4532ba1c7dda728f4576d6d073",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flake-utils_2": {
+      "locked": {
+        "lastModified": 1676283394,
+        "narHash": "sha256-XX2f9c3iySLCw54rJ/CZs+ZK6IQy7GXNY4nSOyu2QG4=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "3db36a8b464d0c4532ba1c7dda728f4576d6d073",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nix-writers": {
+      "inputs": {
+        "flake-utils": "flake-utils_2",
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1677612737,
+        "narHash": "sha256-UaCKZ4PbMZU6UZH7XNFcjRtd5jheswl66rjZDBfQgp8=",
+        "ref": "refs/heads/master",
+        "rev": "66a1f6833464bbb121b6d94247ad769f277351f8",
+        "revCount": 39,
+        "type": "git",
+        "url": "https://cgit.krebsco.de/nix-writers"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://cgit.krebsco.de/nix-writers"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1677608380,
+        "narHash": "sha256-k82O23qBAK+43X0KSBjsMYXG2x4kWWXeAmpPTc2KRGY=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "4aba90e89f6d4ac6138939961f62842bd94ec929",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1677608380,
+        "narHash": "sha256-k82O23qBAK+43X0KSBjsMYXG2x4kWWXeAmpPTc2KRGY=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "4aba90e89f6d4ac6138939961f62842bd94ec929",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nix-writers": "nix-writers",
+        "nixpkgs": "nixpkgs_2"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
